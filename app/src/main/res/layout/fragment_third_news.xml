@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ThirdNewsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="393dp"
+        android:layout_height="282dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/erferfef" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n COVID_WAITLIST\n\nOne of the biggest casualties of the COVID-19 pandemic in Victoria has been increasing elective surgery wait list times. Tens of thousands of Victorians are being left in pain, unable to work and without any certainty of when they'll be operated on far beyond the timelines of what is medically advised.
+Doctors have described the situation as catastrophic, with our state the worst-performing by far." />
+
+    <ImageButton
+        android:id="@+id/RelatedStory3"
+        android:layout_width="162dp"
+        android:layout_height="147dp"
+        android:layout_gravity="bottom|left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dwedwedwd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:layout_gravity="bottom|left"
+        android:fontFamily="sans-serif-black"
+        android:text="Related Story:" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="147dp"
+        android:layout_gravity="bottom|right"
+        android:fontFamily="sans-serif"
+        android:text="AGE OF CRIMINAL\n\nVictoria is set to raise the age of criminal responsibility from 10 to 12, under plans agreed upon by state ministers."
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/Back3"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:src="@android:drawable/ic_menu_revert" />
+
+</FrameLayout>

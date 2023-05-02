@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp">
+
+        <ImageView
+            android:id="@+id/Inflation"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rsz_1gettyimages_157311703_b09b9b53d83d4f35bcbedf9ffb6c8a8b" />
+
+        <ImageView
+            android:id="@+id/wedding"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wedding_trends_png" />
+
+        <ImageView
+            android:id="@+id/Child"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="219dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/erferfef" />
+
+        <ImageView
+            android:id="@+id/Law"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="197dp"
+            android:layout_marginEnd="116dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dwedwedwd" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+

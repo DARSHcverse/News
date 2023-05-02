@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FirstNewsFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/VerticalRecycler"
+            android:layout_width="408dp"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="389dp"
+        android:layout_height="269dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/rsz_1gettyimages_157311703_b09b9b53d83d4f35bcbedf9ffb6c8a8b" />
+
+    <TextView
+        android:id="@+id/FirstNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n INFLATION\n\n\nT﻿he rate of inflation in Australia has slowed to an annual rate of 7 per cent, further muddying the waters of whether the Reserve Bank of Australia (RBA) will increase rates when it meets on Tuesday.
+New data from the Australian Bureau of Statistics (ABS) showed that headline inflation rose by 1.4 per cent in the March quarter, and by 7 per cent on an annual basis.
+Today's figure will prove crucial to the nation's economists after the RBA decided to hold the cash rate at 3.6 per cent in April.
+"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/RelatedStory1"
+        android:layout_width="162dp"
+        android:layout_height="147dp"
+        android:layout_gravity="bottom|left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wedding_trends_png" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:layout_gravity="bottom|left"
+        android:fontFamily="sans-serif-black"
+        android:text="Related Story:" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="147dp"
+        android:layout_gravity="bottom|right"
+        android:fontFamily="sans-serif"
+        android:text="Wedding\n\nMelbourne man who murdered his daughter and son-in-law in cold blood because they didn't ask his permission to marry"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/Back1"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:src="@android:drawable/ic_menu_revert" />
+
+</FrameLayout>
